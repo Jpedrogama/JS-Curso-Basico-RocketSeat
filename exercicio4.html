@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>Curso Javascript</title>
+  </head>
+  <body>
+    <p>tes 1</p>
+
+    <script>
+      //
+      //
+      //
+      //
+      function experiencia(anos) {
+        if (anos <= 1) {
+          return "Iniciante";
+        } else {
+          if (anos > 1 && anos <= 3) {
+            return "Intermediario";
+          } else {
+            if (anos > 3 && anos <= 6) {
+              return "Avancado";
+            } else {
+              return "Jedi Master";
+            }
+          }
+        }
+      }
+      var anosEstudo = 6;
+      var str = experiencia(anosEstudo);
+      console.log(str);
+
+      // De 0-1 ano: Iniciante
+      // De 1-3 anos: Intermediário
+      // De 3-6 anos: Avançado
+      // De 7 acima: Jedi Master
+      //
+      //
+      //
+      //
+    </script>
+  </body>
+</html>
